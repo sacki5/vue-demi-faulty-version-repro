@@ -1,0 +1,14 @@
+{
+  "name": "missmatch",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/vue", "**/vue-demi"]
+  }
+}
